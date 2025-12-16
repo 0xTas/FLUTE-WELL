@@ -69,7 +69,7 @@ If a MIDI file contains chords, a **single note is selected per moment** using a
 ---
 
 ## Usage
-1. Download the latest release or compile the program from source.
+1. Download the [latest release](https://github.com/0xTas/FLUTE-WELL/releases/latest) or [compile the program from source](https://github.com/0xTas/FLUTE-WELL?tab=readme-ov-file#building--contributing).
 2. Run ANIMAL WELL, and equip your flute by pressing **E** (*or controller equivalent*).
 3. In a terminal, run `./FLUTE_WELL.exe --help` to see all available configuration flags.
 4. Once you have sourced a `.mid` file, run `./FLUTE_WELL.exe [OPTIONS] <./path/to/midi/file.mid>`.
