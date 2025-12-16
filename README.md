@@ -87,6 +87,7 @@ If a MIDI file contains chords, a **single note is selected per moment** using a
 >[!TIP]
 > FLUTE WELL uses Rust's `env_logger` crate to output information to the terminal.<br>
 > By default you won't see much, so you should set your `RUST_LOG` environment variable to "info" in order to see any runtime information.<br>
+> Example in Powershell: `$env:RUST_LOG="info"`.<br>
 > You can then pass the `--verbose` command-line arg to the program in order to see additional information output, like individual notes and their durations.<br>
 > You may instead wish to set the log level to "debug" if you are contributing to the repo or debugging an encountered issue.
 
