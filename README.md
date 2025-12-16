@@ -55,9 +55,9 @@ If a MIDI file contains chords, a **single note is selected per moment** using a
 ## Requirements
 
 ### Game
-- [**ANIMAL WELL**](https://www.animalwell.net)
+- [**ANIMAL WELL**](https://www.animalwell.net).
 - The flute must be unlocked and equipped (not just selected..!)
-- The game window must be focused during playback, and its title cannot be altered
+- The game window must be focused during playback, and its title cannot be altered.
 
 ### Platform
 
