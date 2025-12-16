@@ -22,7 +22,7 @@ FLUTE WELL does best with single-track midi files containing pitches that fall e
 <br>
 You can create MIDI files for use with FLUTE WELL using tools like [MuseScore](https://musescore.org/en), or source preexisting MIDI files from sites like [MuseScore](https://musescore.com/sheetmusic) or [BitMidi](https://bitmidi.com).<br>
 <br>
-To see FLUTE WELL in action, [**click here**](https://www.youtube.com/watch?v=uAFeHlPxMU8).
+To see FLUTE WELL in action, [**click here**](https://www.youtube.com/watch?v=uAFeHlPxMU8) or [**here**](https://www.youtube.com/watch?v=VMucrSv8Eg8).
 
 ---
 
