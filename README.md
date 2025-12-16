@@ -59,7 +59,7 @@ If a MIDI file contains chords, a **single note is selected per moment** using a
 
 > [!IMPORTANT]
 > Currently, the program only runs on Windows, as a Linux-compatible InputEngine hasn't yet been implemented.<br>
-> Animal Well does work on Linux via Proton, so I may implement this at some point in the future.
+> Animal Well does work on Linux via Proton, so I may implement this at some point in the future.<br>
 > I'm also open to accepting PRs if you would like to implement it yourself!
 
 ---
@@ -81,9 +81,9 @@ If a MIDI file contains chords, a **single note is selected per moment** using a
 ```
 
 >[!TIP]
-> FLUTE WELL uses Rust's `env_logger` crate to output information to the terminal.
-> By default you won't see much, so you should set your `RUST_LOG` environment variable to "info" in order to see any runtime information.
-> You can then pass the `--verbose` command-line arg to the program in order to see additional information output, like individual notes and their durations.
+> FLUTE WELL uses Rust's `env_logger` crate to output information to the terminal.<br>
+> By default you won't see much, so you should set your `RUST_LOG` environment variable to "info" in order to see any runtime information.<br>
+> You can then pass the `--verbose` command-line arg to the program in order to see additional information output, like individual notes and their durations.<br>
 > You may instead wish to set the log level to "debug" if you are contributing to the repo or debugging an encountered issue.
 
 ---
@@ -95,6 +95,6 @@ To compile it you'll need [Rust & Cargo](https://rustup.rs) installed.<br>
 Then, run `cargo build --release` and use the created binary in the `./target/release` directory.<br>
 <br>
 > [!IMPORTANT]
-> When running `cargo test`, the `-- --test-threads 1` flag should be passed to prevent multiple tests from attempting to play the flute at the same time.
-> You can also set your `RUST_LOG` environment variable to "info" or "debug", and then use the flag `--nocapture` in order to see potentially helpful information in the terminal.
+> When running `cargo test`, the `-- --test-threads 1` flag should be passed to prevent multiple tests from attempting to play the flute at the same time.<br>
+> You can also set your `RUST_LOG` environment variable to "info" or "debug", and then use the flag `--nocapture` in order to see potentially helpful information in the terminal.<br>
 > Example: `cargo test -- --test-threads 1 --nocapture`.
