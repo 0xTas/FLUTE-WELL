@@ -20,6 +20,8 @@ Afaik, the range of the Animal Well flute is **A4 through A6** (*midi 69..=93*),
 <br>
 FLUTE WELL does best with single-track midi files containing pitches that fall exclusively within that range, but will automatically attempt to transpose errant notes by octave until they fit the range, and resolves polyphonic midi events down to monophonic melodies as per a configurable policy.<br>
 <br>
+You can create MIDI files for use with FLUTE WELL using tools like [MuseScore](https://musescore.org/en), or source preexisting MIDI files from sites like [MuseScore](https://musescore.com/sheetmusic) or [BitMidi](https://bitmidi.com).<br>
+<br>
 To see FLUTE WELL in action, [**click here**](https://www.youtube.com/watch?v=uAFeHlPxMU8).
 
 ---
