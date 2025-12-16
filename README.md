@@ -10,7 +10,7 @@ Play MIDI files on the ANIMAL WELL flute using automated keyboard input.
 
 ## Overview
 
-**FLUTE WELL** is a command-line tool that takes a standard **MIDI file** and plays it on the in-game flute from **ANIMAL WELL** by synthesizing keyboard input at precise timings.<br>
+**FLUTE WELL** is a command-line tool that takes a standard **MIDI file** and plays it on the in-game flute from [**ANIMAL WELL**](https://www.animalwell.net) by synthesizing keyboard input at precise timings.<br>
 <br>
 It does **not** modify the game, inject code, or emulate audio.<br>  
 It simply reads a MIDI file, converts the notes to flute fingerings, and sends the corresponding key presses to the operating system.<br>
@@ -55,7 +55,7 @@ If a MIDI file contains chords, a **single note is selected per moment** using a
 ## Requirements
 
 ### Game
-- **ANIMAL WELL**
+- [**ANIMAL WELL**](https://www.animalwell.net)
 - The flute must be unlocked and equipped (not just selected..!)
 - The game window must be focused during playback, and its title cannot be altered
 
