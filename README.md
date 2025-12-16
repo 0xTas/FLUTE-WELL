@@ -16,7 +16,7 @@ It simply reads a MIDI file, converts the notes to flute fingerings, and sends t
 I spent most of my playthrough thinking you could only play 8 notes of the A Major scale on the flute, and didn't discover that you could play semitones and drop the octave until after I had beaten the game.<br>
 As soon as I found that out, I felt compelled to make this.<br>
 <br>
-Afaik, the range of the Animal Well flute is **A4 through A6** (*midi 69..=93*), which is still a bit limited compared to a real flautist's range, but definitely serviceable.<br>
+Afaik, the total range of the Animal Well flute is **A4 through A6** (*midi 69..=93*), which is still a bit limited compared to a real flautist's range, but definitely serviceable.<br>
 <br>
 FLUTE WELL does best with single-track midi files containing pitches that fall exclusively within that range, but will automatically attempt to transpose errant notes by octave until they fit the range, and resolves polyphonic midi events down to monophonic melodies as per a configurable policy.<br>
 <br>
