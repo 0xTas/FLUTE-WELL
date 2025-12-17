@@ -1,6 +1,6 @@
 [package]
 name = "FLUTE_WELL"
-description = "Import and play MIDI songs on the Animal Well flute!"
+description = "Import and play MIDI songs on the ANIMAL WELL flute!"
 authors = ["Tas <root@0xTas.dev>"]
 version = "0.2.1"
 edition = "2024"
