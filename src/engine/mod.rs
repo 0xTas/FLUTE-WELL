@@ -48,14 +48,15 @@ pub trait InputEngine: Send + Sync {
             final_hold_ms = hold_ms;
         }
 
-        // Always press & release the play key first before pressing/releasing any other keys.
-        // This avoids accidental wrong notes from incidental keypress races.
+        // Always press the play key last after pressing the other input keys.
         self.key_down(input)?;
         self.sleep(Duration::from_millis(1));
 
         self.key_down(&play_input)?;
         self.sleep(Duration::from_secs_f64(final_hold_ms / 1000.0));
 
+        // Always release the play key first before releasing any other keys.
+        // This avoids accidental wrong notes from incidental keypress races.
         self.key_up(&play_input)?;
         self.sleep(Duration::from_millis(1));
 
