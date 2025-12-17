@@ -30,7 +30,7 @@ To see FLUTE WELL in action, [**click here**](https://www.youtube.com/watch?v=uA
 
 ## Features
 
-- 🎵 Reads standard `.mid` files directly.
+- 🎵 Imports from standard midi (`.mid`) files.
 - ⏱ High-precision timing (sub-millisecond scheduling).
 - 🎹 Single-note melody extraction (polyphony reduction).
 - 🎼 Supports octave & semitone transposition.
@@ -44,9 +44,8 @@ To see FLUTE WELL in action, [**click here**](https://www.youtube.com/watch?v=uA
 FLUTE WELL intentionally does **not** attempt to:
 - Support chords (the flute is monophonic).
 - Preserve MIDI instruments or layers.
-- Provide a visual editor.
-- Run inside the game.
-- Bypass OS or game input restrictions.
+- Provide a visual song or midi editor.
+- Hook into or run inside the game.
 
 If a MIDI file contains chords, a **single note is selected per moment** using a configurable policy (e.g. highest note).
 
