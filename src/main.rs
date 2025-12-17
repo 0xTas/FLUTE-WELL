@@ -55,9 +55,8 @@ fn main() -> Result<()> {
     );
 
     player.load_song(song)?;
-    let player_arc = Arc::new(player);
-    let player = Arc::clone(&player_arc);
-    let player_for_handler = Arc::clone(&player_arc);
+    let player = Arc::new(player);
+    let player_for_handler = Arc::clone(&player);
     let (done_tx, _done_rx) = mpsc::channel::<()>();
 
     ctrlc::set_handler(move || {
